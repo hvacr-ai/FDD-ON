@@ -1,0 +1,2211 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC/"
+     xml:base="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:FDD_ON_VAV_HVAC="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC">
+        <rdfs:comment xml:lang="gmail.com.">Developed by Dr. Yimin Chen. Please direct all comments and questions to chenyimincareer</rdfs:comment>
+        <rdfs:comment>FDD-ON_VAV_HVAC is an sub ontology of FDD-ON, which is an ontology of fault detection and diagnostics (FDD) for heating, ventilation, air conditioning and refrigeration (HVAC&amp;R) systems. This part of the ontology is for Variable Air Volume (VAV) HVAC systems.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultAttribute">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultBehaviorMetric -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultBehaviorMetric">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultComponentCategory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultContributingCause -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultContributingCause">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLifecycleOccurrenceStage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#isSymptomOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomAttribute">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomDataType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomDataType">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomGenerationRule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomGenerationRule">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomGenerationRule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomPattern -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomPattern">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptomAttribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#isSymptomOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#isSymptomOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasDeviationMagnitudeValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasDeviationMagnitudeValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasDurationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasDurationValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFrequencyValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFrequencyValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasProbabilityValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasProbabilityValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasRecurrenceIntervalValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasRecurrenceIntervalValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasStrengthennessValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasStrengthennessValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Parameter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Parameter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Wire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Wire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Override -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Override">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlParameterType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Schedule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlParameterType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Sequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Sequence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlSequenceLogicType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Setpoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Setpoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlParameterType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ControlEconomizer-Sequence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ControlEconomizer-Sequence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlSequenceLogicType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Cooling-Coil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Cooling-Coil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CoilType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Cooling-CoilValve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Cooling-CoilValve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-DischargeAir-DewpointSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-DischargeAir-DewpointSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-DischargeAir-TemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-DischargeAir-TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Airflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Airflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-DamperControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-DamperControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanMotor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanMotor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CoilType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DifferentialPressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DifferentialPressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DifferentialPressureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DifferentialPressureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-Filter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-Filter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FilterType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-TemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-AirFraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-AirFraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Airflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Airflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-AirflowSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-AirflowSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-DamperControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-DamperControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-DewpointSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-DewpointSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-RelativeHumidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-RelativeHumidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-RelativeHumiditySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-RelativeHumiditySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-TemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorMixAir-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorMixAir-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorSupplyAir-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorSupplyAir-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-Coil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-Coil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CoilType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-CoilValve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-CoilValve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-RecirculatedAir-Damper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-RecirculatedAir-Damper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReliefAir-AirflowSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReliefAir-AirflowSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Airflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Airflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-AirflowSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-AirflowSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-CO2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-CO2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-CO2Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-CO2Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-DamperControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-DamperControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-DewpointSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-DewpointSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Duct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Duct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DuctType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanMotor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanMotor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Airflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Airflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-CoolingHeating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-CoolingHeating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Duct -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Duct">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DuctType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSetpoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSetpoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Fault"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponnetCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSetpoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSetpoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyMixAir-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyMixAir-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Symptom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CoilType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CoilType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicatinNetwrokCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicatinNetwrokCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultComponentCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationParameterType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationParameterType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationShieldType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationShieldType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationWireConnectorType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationWireConnectorType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ContinuousDurationPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ContinuousDurationPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#StatisticalPattern"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OccurrenceProbabilityPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlCommandSettingType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlCommandSettingType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlParameterType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlParameterType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentSoftwareCategory"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlSequenceLogicType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlSequenceLogicType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlSequenceLogicType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentSoftwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControllerType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControllerType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CyclingPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CyclingPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DeriveDataType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DeriveDataType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DerivedRule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DerivedRule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomGenerationRule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DesignManufacturingCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DesignManufacturingCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DesignStage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DesignStage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLifecycleOccurrenceStage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DuctType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DuctType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ElectricalComponentType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ElectricalComponentType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EnvirnomentalConditionCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EnvirnomentalConditionCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultComponentCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentSoftwareCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentSoftwareCategory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultComponentCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultComponentCategory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultComponentCategory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDeviationMagnitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDeviationMagnitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDuration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDuration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLifecycleOccurrenceStage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLifecycleOccurrenceStage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultOccurrenceFrequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultOccurrenceFrequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultRecurrenceInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultRecurrenceInterval">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FilterType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FilterType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FluidType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FluidType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#GroundWireShieldType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#GroundWireShieldType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HardwareDegradationAageFatigueCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HardwareDegradationAageFatigueCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HardwareInstallationConfigurationCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HardwareInstallationConfigurationCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HighPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HighPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LevelDeviationPattern"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LowPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#InstallationCommissionServiceStage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#InstallationCommissionServiceStage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLifecycleOccurrenceStage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#IntermittentPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#IntermittentPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RelationPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LevelDeviationPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LevelDeviationPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LowPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LowPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LevelDeviationPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MismatchPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MismatchPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RelationPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MultimediaDataType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MultimediaDataType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MultipleMeasurementRule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MultipleMeasurementRule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomGenerationRule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#NetworkInterfaceType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#NetworkInterfaceType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OccurrenceProbabilityPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OccurrenceProbabilityPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#StatisticalPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLifecycleOccurrenceStage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStateType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStateType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OscillationPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OscillationPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PipeType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PipeType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PowerCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PowerCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PowerSupplyConnectorType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PowerSupplyConnectorType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RelationPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RelationPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorDataType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorDataType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SimultaneousnessPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SimultaneousnessPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RelationPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SlowResponsePattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SlowResponsePattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SoftwareProgrammingConfigurationCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SoftwareProgrammingConfigurationCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SpikePattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SpikePattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RelationPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#StatisticalPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#StatisticalPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomGenerationRule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomGenerationRule"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TextDataType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TextDataType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UnexpectedExternalForceCause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UnexpectedExternalForceCause">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UniqueMeasurementRule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UniqueMeasurementRule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomGenerationRule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UnresponsePattern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UnresponsePattern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper-Hunting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper-Hunting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper-Jam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper-Jam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper-Leakage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper-Leakage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt-Failure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt-Failure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt-Looseness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt-Looseness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil-Fouling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil-Fouling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil-Leakage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil-Leakage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil-Size -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil-Size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve-Hunting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve-Hunting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve-Jam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve-Jam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve-Leakage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve-Leakage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper-Hunting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper-Hunting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper-Jam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper-Jam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper-Leakage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper-Leakage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Duct-Leakage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Duct-Leakage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Duct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Fan-Hunting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Fan-Hunting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanMotor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt-Failure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt-Failure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt-Looseness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt-Looseness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanMotor-Failure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanMotor-Failure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanMotor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Duct-Leakage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Duct-Leakage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Duct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt-Failure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt-Failure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt-Looseness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt-Looseness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor-Failure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor-Failure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor-Hunting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor-Hunting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor-Bias -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor-Bias">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Supply_air-RelativeHumiditySensor-Drift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Supply_air-RelativeHumiditySensor-Drift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Supply_air-RelativeHumiditySensor-Freeze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Supply_air-RelativeHumiditySensor-Freeze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-System-Controller-Offline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-System-Controller-Offline">
+        <FDD_ON_VAV_HVAC:hasProbabilityValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.001</FDD_ON_VAV_HVAC:hasProbabilityValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Interface"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Parameter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Communication-Wire"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Override"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Schedule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Sequence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Control-Setpoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ControlEconomizer-Sequence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Cooling-Coil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Cooling-CoilValve"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-DischargeAir-DewpointSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-DischargeAir-TemperatureSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Damper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanBelt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanMotor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-Coil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Heating-CoilValve"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DewpointSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DifferentialPressureSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-Filter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-TemperatureSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-AirflowSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Damper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-DewpointSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-RelativeHumiditySensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-TemperatureSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-Coil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-CoilValve"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-RecirculatedAir-Damper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReliefAir-AirflowSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-AirflowSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-CO2Sensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-DewpointSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Duct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanBelt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanMotor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumiditySensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-TemperatureSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-AirflowSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-DewpointSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Duct"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanBelt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanMotor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumiditySensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSensor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSensor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-Airflow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-DamperControl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ExhaustAir-FanSpeed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-DifferentialPressure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-MixedAir-Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-AirFraction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Airflow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-DamperControl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-RelativeHumidity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorAir-Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorMixAir-Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-OutdoorSupplyAir-Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-Preheat-Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Airflow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-CO2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-DamperControl"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-FanSpeed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-RelativeHumidity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-ReturnAir-Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Airflow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-CoolingHeating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-FanSpeed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-RelativeHumidity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-StaticPressureSetpoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyAir-TemperatureSetpoint"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#AHU-SupplyMixAir-Temperature"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CoilType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControllerType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DuctType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ElectricalComponentType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FilterType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FluidType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#GroundWireShieldType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PipeType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PowerSupplyConnectorType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ActuatorDriverType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CoilType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControllerType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DuctType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ElectricalComponentType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FluidType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#GroundWireShieldType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PipeType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PowerSupplyConnectorType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorType"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicatinNetwrokCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DesignManufacturingCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EnvirnomentalConditionCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HardwareDegradationAageFatigueCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#HardwareInstallationConfigurationCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#PowerCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SoftwareProgrammingConfigurationCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UnexpectedExternalForceCause"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentSoftwareCategory"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationParameterType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationShieldType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationWireConnectorType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#NetworkInterfaceType"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlCommandSettingType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DeriveDataType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MultimediaDataType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStateType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SensorDataType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TextDataType"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DerivedRule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MultipleMeasurementRule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UniqueMeasurementRule"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#DesignStage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#InstallationCommissionServiceStage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDeviationMagnitude"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDuration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultOccurrenceFrequency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultRecurrenceInterval"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#IntermittentPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MismatchPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SimultaneousnessPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SpikePattern"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#LevelDeviationPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RelationPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#StatisticalPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OscillationPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SlowResponsePattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#UnresponsePattern"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
