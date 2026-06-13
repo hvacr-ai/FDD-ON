@@ -41,6 +41,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -59,6 +61,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -77,6 +81,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -95,6 +101,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -113,6 +121,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -122,6 +132,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -138,6 +150,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -156,6 +170,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -165,6 +181,8 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-BOILERPLANT"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-CHILLERPLANT"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-RTU"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-VAVATU"/>
                 </owl:unionOf>
@@ -6833,6 +6851,158 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-TemperatureSensor-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-TemperatureSensor-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Control-Schedule-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Control-Schedule-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-Pump-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-Pump-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-PumpControlParameter-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-PumpControlParameter-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-PumpVFD-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-PumpVFD-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-BaypassValve-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-BaypassValve-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-BaypassValveControlParameter-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-BaypassValveControlParameter-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-DifferentialPressureSetpoint-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-DifferentialPressureSetpoint-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-HeatExchanger-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-HeatExchanger-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-Pump-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-Pump-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-PumpControlParameter-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-PumpControlParameter-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-PumpVFD-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-PumpVFD-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-TemperatureSetpoint-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-TemperatureSetpoint-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-TemperatureSensor-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-TemperatureSensor-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-TemperatureSensor-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-TemperatureSensor-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-System-Controller-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-System-Controller-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#Bias -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#Bias">
@@ -6847,6 +7017,342 @@
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#Blockage">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultTypeControlledVocabulary"/>
         <rdfs:comment>The component is physically obstructed, causing a significant increase of the resistance to airflow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT&#45;&#45;FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT--FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Pump-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Pump-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRateSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRateSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRateSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRateSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlCondenserWater-DifferentialPressureSetpoint-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlCondenserWater-DifferentialPressureSetpoint-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlCondenserWater-TemperatureSetpoint-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlCondenserWater-TemperatureSetpoint-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlPrimaryLoopChilledWater-DifferentialPressureSetpoint-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlPrimaryLoopChilledWater-DifferentialPressureSetpoint-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlPrimaryLoopChilledWater-TemperatureSetpoint-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlPrimaryLoopChilledWater-TemperatureSetpoint-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-DifferentialPressureSetpoint-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-DifferentialPressureSetpoint-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-TemperatureSetpoint-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-TemperatureSetpoint-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlSequence-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlSequence-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValveControlParameter-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValveControlParameter-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpControlParameter-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpControlParameter-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpControlParameter-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpControlParameter-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ValveControlParameter-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ValveControlParameter-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-FAULT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-FAULT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
 
@@ -7169,6 +7675,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
@@ -7320,6 +7838,18 @@
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-AHU -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-AHU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-BOILERPLANT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-BOILERPLANT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     
 
 
@@ -8461,6 +8991,18 @@
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-BOILERPLANT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-BOILERPLANT"/>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-CHILLERPLANT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-CHILLERPLANT"/>
     
 
 
@@ -17660,6 +18202,77 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-TemperatureSensor-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Control-Schedule-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-Pump-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-PumpControlParameter-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-FeedWaterLoop-PumpVFD-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-BaypassValve-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-BaypassValveControlParameter-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-DifferentialPressureSetpoint-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-HeatExchanger-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-Pump-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-PumpControlParameter-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-PumpVFD-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterLoop-TemperatureSetpoint-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-TemperatureSensor-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-TemperatureSensor-Fault"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-System-Controller-Fault"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT--FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Pump-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRateSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRateSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlCondenserWater-DifferentialPressureSetpoint-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlCondenserWater-TemperatureSetpoint-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlPrimaryLoopChilledWater-DifferentialPressureSetpoint-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlPrimaryLoopChilledWater-TemperatureSetpoint-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-DifferentialPressureSetpoint-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-TemperatureSetpoint-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlSequence-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValveControlParameter-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpControlParameter-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpControlParameter-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ValveControlParameter-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-FAULT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-FAULT"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CommunicationNetworkCategory"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentHardwareCategory"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#EquipmentSoftwareCategory"/>
@@ -17761,6 +18374,32 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#GasCostImpact"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#MaintenanceMoneyImpact"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#WaterCostImpact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultBehaviorMetric"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultComponentCategory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultContributingCause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-AHU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-BOILERPLANT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-CHILLERPLANT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-VAVATU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLifecycleOccurrenceStage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultTypeControlledVocabulary"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-AHU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-VAVATU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomDataType"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomGenerationRule"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-AHU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-RTU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomLibrary-VAVHVAC-VAVATU"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomPattern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SymptomStatusControlledVocabulary"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
