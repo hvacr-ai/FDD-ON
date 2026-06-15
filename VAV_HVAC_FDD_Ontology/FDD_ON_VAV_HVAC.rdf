@@ -6851,6 +6851,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-ControlStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-ControlStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Fault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Fault">
@@ -6921,6 +6937,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
     </owl:Class>
     
 
@@ -7247,6 +7271,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Fault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Fault">
@@ -7323,6 +7355,22 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeedControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeedControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
     </owl:Class>
     
 
@@ -7879,6 +7927,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Fault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Fault">
@@ -7959,6 +8015,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-TemperatureSensor-Fault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-TemperatureSensor-Fault">
@@ -8035,6 +8099,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupplyReturn-DifferentialTemperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupplyReturn-DifferentialTemperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
     </owl:Class>
     
 
@@ -25405,6 +25477,54 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-ControlStatus-Mismatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-ControlStatus-Mismatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-ControlStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Bias">
@@ -25425,6 +25545,46 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-TemperatureSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -25501,6 +25661,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Bias">
@@ -25521,6 +25721,46 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressureSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeedControl-Mismatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeedControl-Mismatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-PumpSpeedControl"/>
     </owl:NamedIndividual>
     
 
@@ -25645,6 +25885,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Bias">
@@ -25665,6 +25945,46 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRateSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -25693,10 +26013,66 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupplyReturn-DifferentialTemperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupplyReturn-DifferentialTemperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupplyReturn-DifferentialTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-System-Controller-Offline -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-System-Controller-Offline">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-System-Controller-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Chiller-ControlStatus-Mismatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Chiller-ControlStatus-Mismatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Chiller-ControlStatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure"/>
     </owl:NamedIndividual>
     
 
@@ -25757,6 +26133,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeedControl-Mismatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeedControl-Mismatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpSpeedControl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-Failure">
@@ -25785,6 +26201,86 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-Stuck">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -25833,6 +26329,86 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRateSensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -25973,10 +26549,74 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeedControl-Mismatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeedControl-Mismatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanSpeedControl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-AirSideFouling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-AirSideFouling">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint"/>
     </owl:NamedIndividual>
     
 
@@ -26025,6 +26665,54 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelatvieHumidity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -26085,6 +26773,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-Bias">
@@ -26141,10 +26869,90 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeedControl-Mismatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeedControl-Mismatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpSpeedControl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-Failure">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -26173,6 +26981,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-SlowRespon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-SlowRespon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-Bias">
@@ -26197,6 +27045,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-Bias">
@@ -26217,6 +27105,54 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupplyReturn-DifferentialTemperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupplyReturn-DifferentialTemperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupplyReturn-DifferentialTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure"/>
     </owl:NamedIndividual>
     
 
@@ -26277,6 +27213,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeedControl-Mismatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeedControl-Mismatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpSpeedControl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-Failure">
@@ -26317,6 +27293,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-Bias">
@@ -26337,6 +27353,46 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-High -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-High">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-Low -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-Low">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-Oscillation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-Oscillation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-SlowResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-SlowResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-UnResponse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-UnResponse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature"/>
     </owl:NamedIndividual>
     
 
