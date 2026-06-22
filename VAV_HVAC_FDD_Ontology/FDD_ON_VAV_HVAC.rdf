@@ -10129,22 +10129,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-ControlDifferentialPressureSetpoint-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-ControlDifferentialPressureSetpoint-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-ControlTemperatureSetpoint-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-ControlTemperatureSetpoint-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressure">
@@ -10323,6 +10307,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSetpoint-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSetpoint-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
 
@@ -10647,6 +10639,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-TemperatureSetpoint-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-TemperatureSetpoint-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
 
@@ -11278,14 +11278,6 @@
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-Impact -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-TemperatureSetpoint-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-ControlSecondaryLoopChilledWater-TemperatureSetpoint-Impact">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
@@ -12081,22 +12073,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-ControlDifferentialPressureSetpoint-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-ControlDifferentialPressureSetpoint-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-ControlTemperatureSetpoint-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-ControlTemperatureSetpoint-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressure">
@@ -12233,6 +12209,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
 
@@ -12565,6 +12549,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-TemperatureSetpoint-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-TemperatureSetpoint-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
 
@@ -12991,14 +12983,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ControlDifferentialPressureSetpoint-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ControlDifferentialPressureSetpoint-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressure">
@@ -13159,6 +13143,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
 
@@ -13489,6 +13481,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-TemperatureSetpoint-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-TemperatureSetpoint-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-CHILLERPLANT"/>
     </owl:Class>
     
 
@@ -31757,6 +31757,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSetpoint-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSetpoint-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-DifferentialPressureSetpoint-SettingError">
@@ -31829,6 +31837,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpControlParameter-SettingError">
@@ -31885,6 +31901,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-PumpVFD-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-TemperatureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-TemperatureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-TemperatureSetpoint-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-TemperatureSetpoint-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-TemperatureSetpoint-SettingError">
@@ -31905,6 +31945,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-Leakage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWater-Valve-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32021,6 +32077,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-Bias">
@@ -32041,6 +32113,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRateSensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRateSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-WaterFlowSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterEnter-FlowRateSensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32149,6 +32237,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-WaterFlowSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-WaterFlowSensor-Bias">
@@ -32173,10 +32277,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-WaterFlowSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-WaterFlowSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRateSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-WaterFlowSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-WaterFlowSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CondenserWaterLeave-FlowRateSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-Control-Schedule-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-Fan-ElectricityCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-Fan-ElectricityCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32189,10 +32325,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-Fan-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-Fan-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlParameter-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32209,6 +32369,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Failure">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-PowerConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-PowerConsumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-FanMotor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32261,6 +32445,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-CoolingTower-HeatExchanger-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-Dewpoint-High">
@@ -32309,6 +32509,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-DewpointSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-Bias">
@@ -32329,6 +32545,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-RelativeHumiditySensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32405,6 +32637,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-OutdoorAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-Hunting -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-Hunting">
@@ -32421,10 +32669,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-Stuck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-Stuck">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValve-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValveControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValveControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-BaypassValveControlParameter-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32501,10 +32773,58 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-DifferentialPressureSetpoint-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Loop-Cooling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Loop-Cooling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Loop-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pum-PowerConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pum-PowerConsumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-ElectricityCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-ElectricityCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32525,10 +32845,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Stuck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-Stuck">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-Pump-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpControlParameter-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32585,6 +32937,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-Failure">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-PumpVFD-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-TemperatureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-TemperatureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWater-TemperatureSetpoint-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32661,6 +33037,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterReturn-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRate-High">
@@ -32725,6 +33117,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-FlowRateSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-Temperature-High">
@@ -32785,6 +33193,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-PrimaryLoopChilledWaterSupply-TemperatureSensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32861,10 +33285,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-DifferentialPressureSetpoint-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-ElectricityCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-ElectricityCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32885,10 +33341,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-PowerConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-PowerConsumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Stuck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-Stuck">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Pump-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpControlParameter-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -32949,6 +33445,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-PumpVFD-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-TemperatureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-TemperatureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-TemperatureSetpoint-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-TemperatureSetpoint-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-TemperatureSetpoint-SettingError">
@@ -32973,10 +33493,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-Stuck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-Stuck">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-Valve-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ValveControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ValveControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWater-ValveControlParameter-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -33053,6 +33597,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterReturn-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-Temperature-High">
@@ -33113,6 +33673,38 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-FAULT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-SecondaryLoopChilledWaterSupply-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#CHILLERPLANT-System-Controller-Impact"/>
     </owl:NamedIndividual>
     
 
