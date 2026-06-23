@@ -37,10 +37,16 @@ The semantic structure example of FDD-ON for representing a fault type.
 
 ### Taxonomy
 <br /> A set of taxonomies were developed to classify fault attributes and symptom attributes. 
-<br /> For fault attributes, taxonomies include: 1) fault behavior metric; 2) component category; 3) contributing cause; and 4) lifecycle occurrence stage.
-<br /> For symptom attributes,
+<br /> For fault attributes, taxonomies include four sub classes: 1) fault behavior metric; 2) component category; 3) contributing cause; and 4) lifecycle occurrence stage.
+<br /> For symptom attributes, taxonomies include two sub classes as: 1) symptom behaviors, and 2) data types.
+<br /> For impact types, taxonomies include seven sub classes as: 1) equipment performance, 2) energy, 3) economic cost, 4) indoor air quality, 5) thermal comfort, 6) maintenance activity, and 7) environment.
+<br /> Below graphic illustrate the taxonomoy structures for fault attributes, symptom attributes and impact types.
+
+<br /> ![Taxonomies](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Taxonomy%20illustration.png)
+
 
 ### Implementation of semantic modelling
+
 
 
 ## Development of Libraries
