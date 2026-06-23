@@ -14,23 +14,28 @@ Fault detection and diagnosis (FDD) is essential for improving HVAC system relia
 ## Methodology
 ### Framework
 We developed a framework for developing FDD-ON. The framework includes five major phases including: 1) information and requirement analysis, 2) development ontology, 3) development of fault libraries, symptom libraries, and impact libraries, 3) ontology evaluation, and 5) limitation discussion and evolution. 
-<br /> It is noted that the development of FDD-ON is an iterative process, i.e., the evaluation result of FDD-ON should feedback to step #1 to update, extend and enhance the ontology.
+<br /> It is noted that the development of FDD-ON is an iterative process, i.e., the evaluation result of FDD-ON should feedback to step #1 to update, extend and enhance the ontology.\
 
 <br /> ![FDD-ON development framework](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Development%20framework.png)
 
+### Semantic model
+We developed a four-level semantic model, which characterizes the FDD inference and analytic processes. The model structures FDD knowledge and reasoning into four interconnected levels: 1) symptom detection, 2) fault diagnosis, 3) contributing cause identification, and 4) fault impact analysis.\
+
+<br /> ![Four-level semantic model for FDD inference and analytics.](https://github.com/hvacr-ai/FDD-ON/blob/main/image/A%20four%20level%20semantic%20model.png)
+
+### Fault ontology
+
+### Symptom ontology
+
+### Controlled vocabulary
+
+### Taxonomy
+
+### Library
+
+### Modeling tool
 
 
-<br /> ### Semantic model
-
-<br /> ### Fault ontology
-
-<br /> ### Symptom ontology
-
-<br /> ### Controlled vocabulary
-
-<br /> ### Taxonomy
-
-<br /> ### Library
 
 
 ## Feature
