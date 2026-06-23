@@ -1,4 +1,4 @@
-# FDDON (Fault detection and diagnostics ontology)
+# FDD-ON (Fault detection and diagnostics ontology)
 ## About
 Fault detection and diagnostics ontology (FDD-ON) creates a standardized structure for the classification of various types of faults and associated symptoms and impacts. The FDD-ON unifies the representation of faults and symptoms among the varied terminologies and vocabularies, into a relational ontology that permits inference and reasoning of the relationships among fault concepts and is optimized toward annotating HVAC faults.
 
@@ -12,8 +12,17 @@ Fault detection and diagnosis (FDD) is essential for improving HVAC system relia
 
 
 ## Methodology
+ <br /> Framework
 
+ <br /> Semantic model
 
+<br /> Fault ontology
+
+<br /> Symptom ontology
+
+<br /> Controlled vocabulary
+
+<br /> Taxonomy
 
 ## Feature
 * Semantic model:  A complete semantic model to represent fault natures (i.e., fault locations, faulty components, fault contributing causes) and symptom characteristics (i.e., symptom data type, symtpom pattern, and symptom generation rule), as well as their relations.
