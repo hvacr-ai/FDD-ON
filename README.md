@@ -37,10 +37,10 @@ The semantic structure example of FDD-ON for representing a fault type.
 
 ### Taxonomy
 
-### Library
+### Implementation of semantic modelling
 
-### Modeling tool
 
+## Development of Libraries
 
 
 
