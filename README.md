@@ -1,6 +1,6 @@
 # FDD-ON (Fault detection and diagnostics ontology)
 ## About
-Fault detection and diagnostics ontology (FDD-ON) creates a standardized structure for the classification of various types of faults and associated symptoms and impacts. The FDD-ON unifies the representation of faults and symptoms among the varied terminologies and vocabularies, into a relational ontology that permits inference and reasoning of the relationships among fault concepts and is optimized toward annotating HVAC faults.
+Fault detection and diagnostics ontology (FDD-ON) creates a standardized structure for the classification of various types of faults and associated symptoms and impacts. FDD-ON unifies the representation of faults and symptoms among the varied terminologies and vocabularies, into a relational ontology that permits inference and reasoning of the relationships among fault concepts and is optimized toward annotating HVAC faults.
 
 ## Motivations
 Fault detection and diagnosis (FDD) is essential for improving HVAC system reliability, energy efficiency, and maintenance effectiveness. However, effective deployment of FDD solutions in buildings requires structured domain knowledge that can bridge heterogeneous data sources, diverse equipment types, and varied diagnostic outputs. However, limited data interpretability and interoperability within the FDD domain have led to fragmented information silos, hindering the implementation of FDD and related applications, such as the digital twin-enabled FDD frameworks and artificial intelligence (AI)-driven maintenance decision-making systems. Four gaps are uncovered in the current FDD-related applications:
@@ -12,17 +12,25 @@ Fault detection and diagnosis (FDD) is essential for improving HVAC system relia
 
 
 ## Methodology
- <br /> Framework
+<br /> ### ** Framework **
+<br /> We developed a framework for developing FDD-ON. The framework includes five major phases including: 1) information and requirement analysis, 2) development ontology, 3) development of fault libraries, symptom libraries, and impact libraries, 3) ontology evaluation, and 5) limitation discussion and evolution. 
+<br /> It is noted that the development of FDD-ON is an iterative process, i.e., the evaluation result of FDD-ON should feedback to step #1 to update, extend and enhance the ontology.
+![FDD-ON development framework](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Development%20framework.png)
 
- <br /> Semantic model
 
-<br /> Fault ontology
 
-<br /> Symptom ontology
+<br /> ### Semantic model
 
-<br /> Controlled vocabulary
+<br /> ### Fault ontology
 
-<br /> Taxonomy
+<br /> ### Symptom ontology
+
+<br /> ### Controlled vocabulary
+
+<br /> ### Taxonomy
+
+<br /> ### Library
+
 
 ## Feature
 * Semantic model:  A complete semantic model to represent fault natures (i.e., fault locations, faulty components, fault contributing causes) and symptom characteristics (i.e., symptom data type, symtpom pattern, and symptom generation rule), as well as their relations.
