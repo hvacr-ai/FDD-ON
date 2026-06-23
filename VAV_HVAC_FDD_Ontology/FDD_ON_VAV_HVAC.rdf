@@ -15847,6 +15847,52 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-Fault -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-Fault">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultBehaviorMetric"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDuration"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponentCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlParameterType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultContributingCause"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SoftwareProgrammingConfigurationCause"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#InstallationCommissionServiceStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Damper-Fault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Damper-Fault">
@@ -15999,52 +16045,6 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Setpoint-Fault -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Setpoint-Fault">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultLibrary-VAVHVAC-RTU"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultBehaviorMetric"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#FaultDuration"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultComponentCategory"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ControlParameterType"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultContributingCause"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#SoftwareProgrammingConfigurationCause"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#InstallationCommissionServiceStage"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Setpoint-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Setpoint-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
     </owl:Class>
     
 
@@ -16317,6 +16317,14 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#TemporalPattern"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
     </owl:Class>
     
 
@@ -18615,30 +18623,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RTU-ExhaustAir-Fan-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RTU-ExhaustAir-Fan-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RTU-ReturnAir-Fan-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RTU-ReturnAir-Fan-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RTU-SupplyAir-Fan-Impact -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RTU-SupplyAir-Fan-Impact">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-Fault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-Fault">
@@ -19292,6 +19276,14 @@
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-Impact -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-Impact">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
     </owl:Class>
     
@@ -20698,6 +20690,14 @@
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-Impact -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-Impact">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#ImpactLibrary-VAVHVAC-RTU"/>
     </owl:Class>
     
@@ -34165,10 +34165,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Interface-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Parameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Parameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Parameter-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34185,6 +34209,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-Failure">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Communication-Wire-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34261,6 +34301,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-DischargeTemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-DischargeTemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-DischargeTemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-DischargeTemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-DischargeTemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-DischargeTemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-OutletTemperatureSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-OutletTemperatureSensor-Bias">
@@ -34293,6 +34349,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-Power-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-Power-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-PowerSupply-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-PowerMaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-PowerMaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-PowerSupply-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-PowerSupply-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Compressor-PowerSupply-Failure">
@@ -34305,6 +34377,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-AirSideFouling">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Coil-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34349,6 +34437,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-OutletTemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-OutletTemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-OutletTemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-OutletTemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-OutletTemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-OutletTemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-Emission -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-Emission">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-Leakage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-Leakage">
@@ -34357,10 +34469,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-FanControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-FanControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-FanControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34389,6 +34533,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanMotor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanMotor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanMotor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-FanMotor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-PowerSupply-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-PowerSupply-Failure">
@@ -34397,10 +34557,82 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-PowerSupply-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-PowerSupply-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-PowerSupply-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-PowerSupply-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Conderser-PowerSupply-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Condenser-PowerSupply-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-Damper-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-Damper-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-Damper-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-Damper-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-Damper-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-Damper-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-DamperControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-DamperControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-DamperControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-DamperControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-DamperControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Ecomomizer-DamperControlSequence-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSequence-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSequence-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSequence-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSequence-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-SettingError -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-SettingError">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-ControlSetpoint-Fault"/>
     </owl:NamedIndividual>
     
 
@@ -34445,14 +34677,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Setpoint-SettingError -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Setpoint-SettingError">
-        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Economizer-Setpoint-Fault"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-AirSideFouling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-AirSideFouling">
@@ -34461,10 +34685,66 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Coil-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Emission -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Emission">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Leakage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Leakage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Evaporator-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-BarometricDamper-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-BarometricDamper-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-BarometricDamper-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-BarometricDamper-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-BarometricDamper-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-BarometricDamper-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34493,6 +34773,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-ElectricityCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-ElectricityCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-PowerConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-PowerConsumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-Failure">
@@ -34509,10 +34813,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanBelt-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34541,6 +34877,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanMotor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanMotor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanMotor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanMotor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanSpeedControl-Mismatch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-FanSpeedControl-Mismatch">
@@ -34557,6 +34909,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Vent-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Vent-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Vent-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Vent-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Vent-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ExhaustAir-Vent-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-AirSideFouling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-AirSideFouling">
@@ -34569,6 +34937,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-Leakage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-Coil-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34597,6 +34981,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-Stuck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValve-Stuck">
@@ -34605,10 +35005,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-CoilValveControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34629,10 +35045,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasBurner-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasBurner-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasBurner-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasBurner-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasBurner-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasBurner-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-Failure">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasInducerMotor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34653,6 +35101,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-Stuck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValve-Stuck">
@@ -34669,10 +35133,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValveController-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValveController-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValveController-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValveController-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValveController-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-GasValveController-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchanger-AirSideFouling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchanger-AirSideFouling">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchanger-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchanger-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchanger-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchangerAirSide-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchanger-MaintenanceTim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchanger-MaintenanceTim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Heating-HeatExchangerAirSide-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34697,6 +35193,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensorMaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensorMaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-MassFlowSensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34813,6 +35325,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-PressureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-PressureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-PressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-PressureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-PressureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-PressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-Temperature-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-Temperature-High">
@@ -34877,6 +35405,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-LiquidLine-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-Bias -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-Bias">
@@ -34897,6 +35441,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-MixedAir-TemperatureSensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -34973,6 +35533,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-AirflowSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-AirflowSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-AirflowSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-AirflowSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-AirflowSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-AirflowSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-Hunting -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-Hunting">
@@ -34985,6 +35561,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-Leakage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Damper-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35045,10 +35637,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DamperControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35101,10 +35709,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DewpointSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DewpointSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DewpointSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DewpointSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DewpointSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-DewpointSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-Blockage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-Blockage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-Filter-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35137,6 +35777,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-LocationError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-RelativeHumiditySensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35189,10 +35845,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-OutdoorAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-Failure">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Compressor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35205,6 +35893,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-ExpansionDevice-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-ExpansionDevice-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-ExpansionDevice-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-ExpansionDevice-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-ExpansionDevice-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-ExpansionDevice-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-Leakage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-Leakage">
@@ -35213,10 +35917,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-Restriction -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-Restriction">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-LiquidLine-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-Emission -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-Emission">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-Refrigerant-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35237,10 +35981,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-EmissionImpact -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-EmissionImpact">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-Leakage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-Leakage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-RefrigerantCircuit-SuctionLine-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35297,6 +36057,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-LocationError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-CO2Sensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35365,6 +36141,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Duct-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-ElectricityCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-ElectricityCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-PowerConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-PowerConsumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-Failure -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-Failure">
@@ -35381,10 +36197,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanBelt-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35413,6 +36261,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanMotor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanMotor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanMotor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanMotor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanSpeedControl-Mismatch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-FanSpeedControl-Mismatch">
@@ -35429,10 +36293,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheel-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheel-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheel-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheel-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheel-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheel-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-HeatWheelControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35477,10 +36373,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-Blockage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-Blockage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-ReturnAir-Vent-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35557,6 +36485,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-PressureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-PressureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-PressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-PressureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-PressureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-PressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-Temperature-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-Temperature-High">
@@ -35625,6 +36569,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-LocationError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SuctionLine-TemperatureSensor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35701,6 +36661,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-AirflowSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-AirflowSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-AirflowSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-AirflowSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-AirflowSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-AirflowSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-CoolingHeating-SimOcc -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-CoolingHeating-SimOcc">
@@ -35725,6 +36701,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-Stuck -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Damper-Stuck">
@@ -35733,10 +36725,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DamperControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35821,10 +36829,66 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DewpointSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DewpointSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DewpointSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DewpointSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DewpointSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-DewpointSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-Leakage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-Leakage">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Duct-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-ElectricityCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-ElectricityCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-Power -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-Power">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-PowerConsumption -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-PowerConsumption">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-Fan-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35845,10 +36909,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanBelt-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanBelt-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanBelt-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanBelt-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanBelt-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanBelt-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlParameter-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlParameter-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlParameter-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlParameter-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlParameter-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlParameter-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlSequence-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlSequence-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanControlSequence-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35873,6 +36969,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-Hunting">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-FanMotor-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -35989,6 +37101,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-RelativeHumiditySensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-RelativeHumiditySensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-RelativeHumiditySensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-RelativeHumiditySensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-RelativeHumiditySensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-RelativeHumiditySensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressure-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressure-High">
@@ -36049,6 +37177,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensor-LocationError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensorMaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensorMaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-StaticPressureSetpoint-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -36133,6 +37285,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSetpoint-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSetpoint-Mismatch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-SupplyAir-TemperatureSetpoint-Mismatch">
@@ -36149,10 +37325,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-Offline -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-Offline">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Controller-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Zone-OutdoorAirRatio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Zone-OutdoorAirRatio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Zone-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Zone-PPD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Zone-PPD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-System-Zone-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -36181,6 +37389,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-CO2Sensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-CO2Sensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-CO2Sensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-CO2SensorMaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-CO2SensorMaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-CO2Sensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlOverride-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlOverride-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlOverride-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlOverride-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlOverride-SettingError">
@@ -36189,10 +37421,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSchedule-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSchedule-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSchedule-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSchedule-SettingError -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSchedule-SettingError">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSchedule-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSetpoint-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSetpoint-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-ControlSetpoint-Impact"/>
     </owl:NamedIndividual>
     
 
@@ -36269,6 +37517,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-RelativeHumiditySensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-RelativeHumiditySensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-RelativeHumiditySensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-RelativeHumiditySensor-MaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-RelativeHumiditySensor-MaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-RelativeHumiditySensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-Temperature-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-Temperature-High">
@@ -36329,6 +37593,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensor-Freeze">
         <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensor-Fault"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensor-MaintenanceCost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensor-MaintenanceCost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensor-Impact"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensorMaintenanceTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensorMaintenanceTime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#RTU-Thermostat-TemperatureSensor-Impact"/>
     </owl:NamedIndividual>
     
 
