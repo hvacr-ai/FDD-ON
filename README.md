@@ -27,22 +27,35 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 The semantic structure example of FDD-ON for representing a fault type. 
 
-<br /> ![Semantic structure example for representing a fault](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Fault%20illustration.jpg)
+<br /> ![Semantic structure example for representing a fault](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Fault%20illustration.png)
 
 <br /> The semantic structure example of FDD-ON for representing a symptom type.
 
-<br /> ![Semantic structure example for representing a fault](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Symptom%20illustration.jpg)
+<br /> ![Semantic structure example for representing a fault](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Symptom%20illustration.png)
 
 ### Controlled vocabulary
 
 ### Taxonomy
+<br /> A set of taxonomies were developed to classify fault attributes and symptom attributes. 
+<br /> For fault attributes, taxonomies include: 1) fault behavior metric; 2) component category; 3) contributing cause; and 4) lifecycle occurrence stage.
+<br /> For symptom attributes,
 
 ### Implementation of semantic modelling
 
 
 ## Development of Libraries
+### Naming convention
 
 
+### Libraries
+
+## Evaluation
+### Quantitative evaluation
+
+### Qualitative evaluation
+
+
+### Application evaluation
 
 ## Feature
 * Semantic model:  A complete semantic model to represent fault natures (i.e., fault locations, faulty components, fault contributing causes) and symptom characteristics (i.e., symptom data type, symtpom pattern, and symptom generation rule), as well as their relations.
