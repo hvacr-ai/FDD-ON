@@ -37,6 +37,8 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 ### Controlled vocabulary
 
+<br />The controlled vocabulary can represent fault types and symptom statuses identified in the HVAC operations. This enhances the preciseness of the semantic meanings of fault types and symptom statuses, the interpretability of reporting faults and symptoms, as well as the interoperability of data across different systems. The controlled vocabulary will be encoded into the fault naming structure and symptom naming structure. 
+
 ### Taxonomy
 
 <br /> A set of taxonomies were developed to classify fault attributes and symptom attributes. 
@@ -52,9 +54,10 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 ## Development of Libraries
 ### Naming convention
-
+<br /> All fault names, symptom names and impact names are constructed into a four-section structure, namely a **quadrinomial nomenclature**. The four-section structure encodes fundamental information to illustrate a fault type, symptom status and impact type. In each section, Pascal Case notations are adopted to represent specific pieces of information that are associated with characteristics of faults, symptoms and impact types.
 
 ### Libraries
+<br /> FDD-ON includes three major libraries, i.e., fault library, symptom library and impact library for each type of subsystem and equipment. Currently, there are 485 fault types, 465 symptom statuses, and 338 fault impact types, have been included in the fault library and symptom library, respectively. 
 
 ## Evaluation
 ### Quantitative evaluation
