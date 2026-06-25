@@ -68,7 +68,7 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 ### Qualitative evaluation
 
-<br /> The consistency examination was carried out to assess logical expressivity
+<br /> The consistency examination was carried out to assess logical expressivity.
 
 ### Application evaluation
 <br /> The semantic modelling approach of FDD-ON was compared with other ontologies to demonstrate the enhancement of FDD-ON in representing FDD domain knowledge and application areas. 
