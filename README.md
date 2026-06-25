@@ -54,20 +54,27 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 ## Development of Libraries
 ### Naming convention
+
 <br /> All fault names, symptom names and impact names are constructed into a four-section structure, namely a **quadrinomial nomenclature**. The four-section structure encodes fundamental information to illustrate a fault type, symptom status and impact type. In each section, Pascal Case notations are adopted to represent specific pieces of information that are associated with characteristics of faults, symptoms and impact types.
 
 ### Libraries
+
 <br /> FDD-ON includes three major libraries, i.e., fault library, symptom library and impact library for each type of subsystem and equipment. Currently, there are 485 fault types, 465 symptom statuses, and 338 fault impact types, have been included in the fault library and symptom library, respectively. 
 
 ## Evaluation
 ### Quantitative evaluation
 
+<br /> Various ontology metrics and the completeness were analyzed to quantitatively evaluate FDD-ON. 
+
 ### Qualitative evaluation
 
+<br /> The consistency examination was carried out to assess logical expressivity
 
 ### Application evaluation
+<br /> The semantic modelling approach of FDD-ON was compared with other ontologies to demonstrate the enhancement of FDD-ON in representing FDD domain knowledge and application areas. 
 
 ## Feature
+
 * Semantic model:  A complete semantic model to represent fault natures (i.e., fault locations, faulty components, fault contributing causes) and symptom characteristics (i.e., symptom data type, symtpom pattern, and symptom generation rule), as well as their relations.
 * Definition: A clear definition for each type of fault and illustration of fault nature based classification of faults. A unified fault/symptom naming conventions were developed by integrating and connecting synonymous fault concepts in various sources.
 * Library: The evolving fault libraries, symptom libraries and impact libraris to efficiently retrieve fault types, associated symptoms and impacts.
