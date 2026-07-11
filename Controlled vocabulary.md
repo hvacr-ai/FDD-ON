@@ -26,7 +26,7 @@ FDD-ON include lists of controlled vocabulary to define fault types and symptom 
 |19.|Undersize|The equipment or components are undersized.|Chilled water supply pump|
 |20.|Offline|The controller stops work.|AHU controller|
 
-## Controlled vocabulary list for for describing symptom statuses
+## Controlled vocabulary list for describing symptom statuses
 |No.|Fault type|Definition|Example components in which a fault may occur|
 | --- | --- | --- |--- |
 |1.|High|The measured value is higher than the baseline value or the reference value.|Supply air temperature |  
