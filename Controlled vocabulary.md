@@ -4,6 +4,7 @@ FDD-ON include lists of controlled vocabulary to define fault types, symptom sta
 ## Controlled vocabulary for fault types
 
 |No.|Fault type|Definition|Example components in which a fault may occur|
+| --- | --- |
 |1.|Bias|Sensor reading value consistently deviates from the true value, creating a persistent measurement error.|Sensor|  
 |2.|Drift|Sensor reading value gradually deviates from the true value over time.|Sensor|
 |3.|Freeze|Sensor reading remains a constant value even if the true value changes.|Sensor|
