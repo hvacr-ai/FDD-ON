@@ -1,7 +1,7 @@
-# FDD-ON controlled vocabulary
+# FDD-ON controlled vocabulary list (version: 2026A)
 FDD-ON include lists of controlled vocabulary to define fault types and symptom statuses. 
 
-## Controlled vocabulary for fault types
+## Controlled vocabulary list for describing fault types
 
 |No.|Fault type|Definition|Example components in which a fault may occur|
 | --- | --- | --- |--- |
@@ -26,4 +26,18 @@ FDD-ON include lists of controlled vocabulary to define fault types and symptom 
 |19.|Undersize|The equipment or components are undersized.|Chilled water supply pump|
 |20.|Offline|The controller stops work.|AHU controller|
 
-## Controlled vocabulary for symtpom statuses
+## Controlled vocabulary list for for describing symptom statuses
+|No.|Fault type|Definition|Example components in which a fault may occur|
+| --- | --- | --- |--- |
+|1.|High|Sensor reading value consistently deviates from the true value, creating a persistent measurement error.|Sensor|  
+|2.|Low|Sensor reading value gradually deviates from the true value over time.|Sensor|
+|3.|Slow response|Sensor reading remains a constant value even if the true value changes.|Sensor|
+|4.|Unresponse|Sensor reading value consistently deviates from the true value, creating a persistent measurement error.|Sensor|  
+|5.|Oscillation|Sensor reading value gradually deviates from the true value over time.|Sensor|
+|6.|Cycling|Sensor reading remains a constant value even if the true value changes.|Sensor|
+|7.|Spike|Sensor reading value consistently deviates from the true value, creating a persistent measurement error.|Sensor|  
+|8.|Step change|Sensor reading value gradually deviates from the true value over time.|Sensor|
+|9.|Intermittent|Sensor reading remains a constant value even if the true value changes.|Sensor|
+|10.|Mismatch|Sensor reading value gradually deviates from the true value over time.|Sensor|
+|11.|Simultaneous Occurrence|Sensor reading remains a constant value even if the true value changes.|Sensor|
+
