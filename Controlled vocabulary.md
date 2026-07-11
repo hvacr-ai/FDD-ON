@@ -29,15 +29,14 @@ FDD-ON include lists of controlled vocabulary to define fault types and symptom 
 ## Controlled vocabulary list for for describing symptom statuses
 |No.|Fault type|Definition|Example components in which a fault may occur|
 | --- | --- | --- |--- |
-|1.|High|Sensor reading value consistently deviates from the true value, creating a persistent measurement error.|Sensor|  
-|2.|Low|Sensor reading value gradually deviates from the true value over time.|Sensor|
-|3.|Slow response|Sensor reading remains a constant value even if the true value changes.|Sensor|
-|4.|Unresponse|Sensor reading value consistently deviates from the true value, creating a persistent measurement error.|Sensor|  
-|5.|Oscillation|Sensor reading value gradually deviates from the true value over time.|Sensor|
-|6.|Cycling|Sensor reading remains a constant value even if the true value changes.|Sensor|
-|7.|Spike|Sensor reading value consistently deviates from the true value, creating a persistent measurement error.|Sensor|  
-|8.|Step change|Sensor reading value gradually deviates from the true value over time.|Sensor|
-|9.|Intermittent|Sensor reading remains a constant value even if the true value changes.|Sensor|
-|10.|Mismatch|Sensor reading value gradually deviates from the true value over time.|Sensor|
-|11.|Simultaneous Occurrence|Sensor reading remains a constant value even if the true value changes.|Sensor|
-
+|1.|High|The measured value is higher than the baseline value or the reference value.|Supply air temperature |  
+|2.|Low|The measured value is lower than the baseline value or the reference value.|Supply air temperature |
+|3.|Slow response|The measured value has excessive settling time.|Chilled water supply temperature |
+|4.|Unresponse|The measured value keeps constant when it should change.|Damper position signal|  
+|5.|Oscillation|The measured value has cyclical variation.|Discharge air damper control signal|
+|6.|Cycling|The measured equipment status or equipment control command signal is switched between an 'on' (logic high or 100% of the normal value) status and an 'off' status (logic low or 0% of the normal value) frequently or irregularly.|Damper position signal|
+|7.|Spike|The measured value contains a transient sharp peak.|Pump control signal|  
+|8.|Step change|The measured value appears as a sudden and discrete shift from one steady level to another level.|Damper control signal|
+|9.|Intermittent|The measured value appears and disappears irregularly.|Pump control signal|
+|10.|Mismatch|The measured values are not matched.|Damper position and control signal|
+|11.|Simultaneous Occurrence|The signals can be measured at the same time, but logically they should not be measured at the same time.|Cooling valve position signal and heating valve position signal|
