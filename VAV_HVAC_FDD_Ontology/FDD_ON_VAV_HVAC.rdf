@@ -8,11 +8,20 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:FDD_ON_VAV_HVAC="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC">
-        <rdfs:comment>Developed by Dr. Yimin Chen. Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comment>
-        <rdfs:comment>FDD Ontology for VAV HVAC systems (FDD-ON_VAV_HVAC) is an sub ontology of FDD-ON, which is an ontology of fault detection and diagnostics (FDD) for heating, ventilation, air conditioning and refrigeration (HVAC&amp;R) systems. This part of the ontology is for Variable Air Volume (VAV) HVAC systems.</rdfs:comment>
-        <rdfs:comment>FDD-ON will evolve by adding  types of systems, equipment, components, as well as expanding the libraries for faults, symptoms, and impacts correspondingly.
+        <rdfs:comment>1. Copyright and version control
+Copyright
+The development of FDD-ON is led by Dr. Yimin Chen. 
 
-We welcome the community contributes the evoluation of FDD-ON.</rdfs:comment>
+Version control
+This version is 2026A, and is released on July 20, 2026.</rdfs:comment>
+        <rdfs:comment>2. Brief introduction
+FDD Ontology for VAV HVAC systems (FDD-ON_VAV_HVAC) is an sub ontology of FDD-ON, which is an ontology of fault detection and diagnostics (FDD) for heating, ventilation, air conditioning and refrigeration (HVAC&amp;R) systems. This part of the ontology is for Variable Air Volume (VAV) HVAC systems.</rdfs:comment>
+        <rdfs:comment>3. Maintenance and evoluation 
+FDD-ON will evolve by adding  types of systems, equipment, components, as well as expanding the libraries for faults, symptoms, and impacts correspondingly.
+
+We welcome the community contributes the evoluation of FDD-ON.
+
+Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comment>
     </owl:Ontology>
     
 
