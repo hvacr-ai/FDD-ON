@@ -1,4 +1,3 @@
-Copyright and version control
 Copyright
 The copyright is @ Dr. Yimin Chen. The development of FDD-ON is led by Dr. Yimin Chen. 
 
