@@ -1,4 +1,5 @@
 # FDD-ON controlled vocabulary list (version: 2026A)
+The controlled vocabulary list was released in January 25, 2026.
 FDD-ON include lists of controlled vocabulary to define fault types and symptom statuses. 
 
 ## Controlled vocabulary list for describing fault types
