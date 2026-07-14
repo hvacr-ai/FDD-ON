@@ -1,6 +1,16 @@
 Copyright and version control
 Copyright
-The development of FDD-ON is led by Dr. Yimin Chen. The copyright is @ Dr. Yimin Chen
+The copyright is @ Dr. Yimin Chen. The development of FDD-ON is led by Dr. Yimin Chen. 
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+(1) Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+
+(2) Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
@@ -14,9 +24,3 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
 POSSIBILITY OF SUCH DAMAGE.
 
-
-
-Version control
-The version of libraries is 2026B, and was released on July 20, 2026.
-The version of controlled vocabulary lists is 2026A, and was relased on January 25, 2026.
-The version of taxonomies is 2025B, and was released on  December 1, 2025
