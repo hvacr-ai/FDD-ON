@@ -1,4 +1,4 @@
 Version control
-The version of libraries is 2026B, and was released on July 20, 2026.
-The version of controlled vocabulary lists is 2026A, and was relased on January 25, 2026.
-The version of taxonomies is 2025B, and was released on  December 1, 2025
+1. The version of libraries is 2026B (released on July 20, 2026).
+2. The version of controlled vocabulary lists is 2026A (relased on January 25, 2026).
+3. The version of taxonomies is 2025B (was released on  December 1, 2025).
