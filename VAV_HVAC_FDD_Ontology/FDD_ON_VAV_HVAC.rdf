@@ -9182,6 +9182,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-BoilerEnter-TemperatureSensor-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
             </owl:Restriction>
@@ -9300,6 +9306,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-BoilerLeave-TemperatureSensor-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature"/>
             </owl:Restriction>
@@ -9364,6 +9376,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-Control-Schedule-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9446,6 +9464,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-FeedWaterLoop-Pump-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -9482,6 +9506,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-FeedWaterLoop-PumpControlParameter-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9556,6 +9586,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-FeedWaterLoop-PumpVFD-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -9674,6 +9710,18 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWater-DifferentialPressureSensor-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-BaypassValve-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9846,6 +9894,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-BaypassValve-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure"/>
             </owl:Restriction>
@@ -9920,6 +9974,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-BaypassValveControlParameter-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWater-DifferentialPressure"/>
             </owl:Restriction>
@@ -9990,6 +10050,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-DifferentialPressureSetpoint-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10092,6 +10158,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-HeatExchanger-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
             </owl:Restriction>
@@ -10190,6 +10262,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-Pump-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature"/>
             </owl:Restriction>
@@ -10260,6 +10338,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-PumpControlParameter-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10374,6 +10458,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-PumpVFD-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerLeave-Temperature"/>
             </owl:Restriction>
@@ -10438,6 +10528,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterLoop-TemperatureSetpoint-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10536,6 +10632,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterReturn-TemperatureSensor-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10664,6 +10766,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterSupply-FlowRateSensor-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-FlowRate"/>
             </owl:Restriction>
@@ -10788,6 +10896,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-HotWaterSupply-TemperatureSensor-Impact"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterSupply-Temperature"/>
             </owl:Restriction>
@@ -10904,6 +11018,12 @@ Please direct all comments and questions to chenyimincareer</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasFaultLifecycleOccurrenceStage"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#OperationStage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasImpact"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLNAT-System-Controller-Impact"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
