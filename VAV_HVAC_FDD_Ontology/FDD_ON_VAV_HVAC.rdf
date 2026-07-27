@@ -9500,14 +9500,6 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
     
 
 
-    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-BoilerEnter-Temperature">
@@ -10994,6 +10986,14 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
     
 
 
+    <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Symptom"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-TemperatureSensor-Fault -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-TemperatureSensor-Fault">
@@ -11079,7 +11079,7 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#hasSymptom"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -36377,7 +36377,7 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-High -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-High">
-        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -36385,7 +36385,7 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-Low -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-Low">
-        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -36393,7 +36393,7 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-Oscillation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-Oscillation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -36401,7 +36401,7 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-SlowResponse -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-SlowResponse">
-        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature"/>
     </owl:NamedIndividual>
     
 
@@ -36409,7 +36409,7 @@ Please direct all comments and questions to chenyimincareer@gmail.com</rdfs:comm
     <!-- http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-UnResponse -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature-UnResponse">
-        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-Boiler-HotWaterReturn-Temperature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/y6g/ontologies/2025/FDD_ON_VAV_HVAC#BOILERPLANT-HotWaterReturn-Temperature"/>
     </owl:NamedIndividual>
     
 
