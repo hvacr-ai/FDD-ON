@@ -59,7 +59,7 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 ### Libraries
 
-<br /> FDD-ON includes three major libraries, i.e., fault library, symptom library and impact library for each type of subsystem and equipment. Currently, there are 485 fault types, 465 symptom statuses, and 338 fault impact types, have been included in the fault library and symptom library, respectively. 
+<br /> FDD-ON includes three major libraries, i.e., fault library, symptom library and impact library for each type of subsystem and equipment. Currently, there are 469 fault types, 468 symptom statuses, and 241 fault impact types, have been included in the fault library and symptom library, respectively (FDD-ON library version 2026B). 
 
 ## Evaluation
 ### Quantitative evaluation
