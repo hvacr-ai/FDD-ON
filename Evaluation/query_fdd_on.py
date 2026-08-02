@@ -7,9 +7,8 @@ Created on Sat Apr 4 12:00:35 2026
 @author: Yimin Chen
 
 # Project Name: FDD-ON ontology development
-
- 
-
+Copyright (c) 2026 Yimin Chen <chenyimincareer@gmail.com>
+Distributed under the terms of the MIT License.
 
 """
 
@@ -20,7 +19,6 @@ import os
 import matplotlib
 import pandas as pd
 from collections import Counter
-
 
 def count_sub_class (rdf_file_name, upper_class_name):   # Count the number of subclasses
     # %% Load FDD-ON RDF data
