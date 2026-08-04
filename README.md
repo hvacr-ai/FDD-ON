@@ -79,3 +79,6 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 * Definition: A clear definition for each type of fault and illustration of fault nature based classification of faults. A unified fault/symptom naming conventions were developed by integrating and connecting synonymous fault concepts in various sources.
 * Library: The evolving fault libraries, symptom libraries and impact libraris to efficiently retrieve fault types, associated symptoms and impacts.
 * Taxonomy: A taxonomy framework to enhance information representation for various applications, including FDD solution development, evaluation and benchmarking, for fault occurrence and prevalence statistics, for enhancing maintenance.
+
+## Development tool
+<br /> FDD-ON is developed using Protégé OWL ontology editor. The Protégé tool can be obtained from: https://protege.stanford.edu/.  
