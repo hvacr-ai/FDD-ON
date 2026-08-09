@@ -82,3 +82,6 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 ## Development tool
 <br /> FDD-ON is developed using Protégé OWL ontology editor. The Protégé tool can be obtained from: https://protege.stanford.edu/.  
+
+## Citation
+<br /> Please cite: Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics. Y Chen, B Fricke, B Shen, J Lian, M Zhang, J Lo, Y Zhang, S Ye, J Huang, Han Hu, Chujie Lu, Rui Tang, George Zhuang. arXiv preprint arXiv:2607.29657
