@@ -82,6 +82,7 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 * Taxonomy: A taxonomy framework to enhance information representation for various applications, including FDD solution development, evaluation and benchmarking, for fault occurrence and prevalence statistics, for enhancing maintenance.
 
 Below table lists the feature comparison between FDD-ON and other semantic models to demonstrate the completeness of FDD-ON.
+
 ![Feature comparison](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Feature%20comparison.jpg)
   
 ## Development tool
