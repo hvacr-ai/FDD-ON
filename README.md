@@ -33,7 +33,7 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 <br /> The semantic structure example of FDD-ON for representing a symptom type.
 
-<br /> ![Semantic structure example for representing a fault](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Symptom%20illustration.png)
+<br /> ![Semantic structure example for representing a symptom](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Symptom%20illustration.png)
 
 ### Controlled vocabulary
 
@@ -78,9 +78,12 @@ We developed a four-level semantic model, which characterizes the FDD inference 
 
 * Semantic model:  A complete semantic model to represent fault natures (i.e., fault locations, faulty components, fault contributing causes) and symptom characteristics (i.e., symptom data type, symtpom pattern, and symptom generation rule), as well as their relations.
 * Definition: A clear definition for each type of fault and illustration of fault nature based classification of faults. A unified fault/symptom naming conventions were developed by integrating and connecting synonymous fault concepts in various sources.
-* Library: The evolving fault libraries, symptom libraries and impact libraris to efficiently retrieve fault types, associated symptoms and impacts.
+* Library: The evolving fault libraries, symptom libraries and impact libraries to efficiently retrieve fault types, associated symptoms and impacts.
 * Taxonomy: A taxonomy framework to enhance information representation for various applications, including FDD solution development, evaluation and benchmarking, for fault occurrence and prevalence statistics, for enhancing maintenance.
 
+Below table lists the feature comparison between FDD-ON and other semantic models to demonstrate the completeness of FDD-ON.
+![Feature comparison](https://github.com/hvacr-ai/FDD-ON/blob/main/image/Feature%20comparison.jpg)
+  
 ## Development tool
 FDD-ON is developed using Protégé OWL ontology editor. The Protégé tool can be obtained from: https://protege.stanford.edu/.  
 
